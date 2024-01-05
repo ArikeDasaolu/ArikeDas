@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.4;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-color: #e2dedb;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1%;
+    justify-content:center
+  }
+  
+  li {
+    margin-right: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  nav 
+  .logo img {
+   width: 50px;
+   height: 50px;
+   float: left;
+
+  }
+
+  mainheader
+  .nameheading h1 {
+    text-align: center;
+    font-size: 140px;
+    margin-top: -50px;
+  }
+
+  .nameheading h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: -120px;
+    margin-left: 50px;
+
+  }
+
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageheader {
+    width: 360px;
+    height: 342px;
+    overflow:hidden;
+    border-radius: 50%; 
+    float: left;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  .text {
+    font-size: 17px;
+    padding-top: 50px;
+  }
+
+  .buttonheading {
+    align-items: center;
+    margin-left: 180px;
+  }
+
+  .buttonheading {
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    padding: 17px 30px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background: transparent;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+section {
+    margin-bottom: -300px;
+    margin-right: 0px;
+    margin-left: 130px;
+    text-align: left;
+}
+
+#projects h1 {
+    font-size: 60px;
+    margin-top: 160px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.project {
+    background-color: #fff;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section ul {
+    list-style-type:none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+section img {
+    width: 400px;
+    height: 400px;
+}
+
+  .formheading {
+    text-align: center;
+    margin-top: 400px;
+    font-size: 25px;
+}
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 30px;
+  }
+
+  input,
+  textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 100px;
+  }
